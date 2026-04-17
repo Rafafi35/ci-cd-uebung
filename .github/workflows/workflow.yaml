@@ -61,6 +61,6 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/${{ github.repository_owner }}/ci-cd-uebung:latest
-            ghcr.io/${{ github.repository_owner }}/ci-cd-uebung:${{ github.sha }}
+            ghcr.io/rafafi35/ci-cd-uebung:latest
+            ghcr.io/rafafi35/ci-cd-uebung:${{ github.sha }}
 
